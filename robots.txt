@@ -1,0 +1,29 @@
+# Wavelength Studio - robots.txt
+# https://wavelengthstudio.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /_archive/
+
+# Allow CSS and JS for Google
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://wavelengthstudio.com/sitemap.xml
+
+# Crawl-delay (optional, helps with server load)
+# Crawl-delay: 10
+
+# Block specific bots (optional - uncomment if needed)
+# User-agent: AhrefsBot
+# Disallow: /
+#
+# User-agent: SemrushBot  
+# Disallow: /
